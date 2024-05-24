@@ -1,0 +1,211 @@
+.fundo {
+  background-color: #27272a;
+}
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ef361e;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+.logopar {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ef361e;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.inicio {
+  height: 400px;
+  background-image: url("./f2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #eceff5;
+  padding: 100px 0px;
+}
+
+.cx-pesquisa {
+  margin: 30px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgba(254, 242, 242, 0.929);
+}
+.barra-pesquisa form {
+  margin: 30px;
+  display: grid;
+  justify-content: center;
+  display: flex;
+}
+
+.inicial li {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: #ef361e;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: solid 1px;
+  background-color: black;
+  padding: 8px 0px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.li {
+  display: flex;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(251, 251, 251);
+}
+.botao {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ef361e;
+  border: solid 1px #090909;
+  padding: 20px 0px;
+  background-color: #090909;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 25px 0px;
+}
+.linkbotao {
+  text-decoration: none;
+  color: #eceff5;
+}
+.t_pesquisa {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #eceff5;
+}
+.subtitulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #eceff5;
+}
+
+.filmes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.lista1 {
+  display: flex;
+  max-width: 300px;
+  list-style-type: none;
+  padding: 40px 0px;
+}
+.series {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.cartaz {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.titcart {
+  margin-left: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+.lista2 {
+  display: flex;
+  max-width: 300px;
+  list-style-type: none;
+  padding: 40px 0px;
+}
+.btfimpage {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fimpag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  color: #eceff5;
+  text-transform: uppercase;
+}
+.rodape {
+  background-color: rgb(5, 5, 5);
+  align-items: center;
+}
+.logopar1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ef361e;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px;
+}
+.btrodape {
+  color: #eceff5;
+  list-style-type: none;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin: 25px 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.imgrodape {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  width: 31px;
+  height: 35px;
+  padding-left: 12px;
+}
